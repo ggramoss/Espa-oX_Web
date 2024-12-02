@@ -9,6 +9,7 @@
     <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
     <style></style>
     <script type='text/javascript' src=''></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
     <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
@@ -56,11 +57,13 @@
                     <p>Excelência, inovação, acessibilidade e sustentabilidade.</p>
                 </div>
             </div>
-            <a href="#reserve" class="btn">Reserve Agora</a>
+        
+            <button class="btn-primary" href="#reserve">Reserve Agora</button>
+
         </section>
 <!-- Seção Salas -->
         
-        <section class="pt-5 pb-5">
+        <section id="salas" class="pt-5 pb-5">
             <div class="container">
                 <div class="row">
                     <div class="col-6">
@@ -85,7 +88,7 @@
         
                                         <div class="col-md-4 mb-3">
                                             <div class="card">
-                                                <img src="./img/atelier-ideias.jpg" alt="Ateliê das Ideias">
+                                                <img src="./img/aurora.jpg" alt="Ateliê das Ideias">
                                                 <h3>Espaço Aurora</h3>
                                                 <p>Um ambiente inspirador para novos projetos e planejamento criativo.</p>
                                             </div>
@@ -93,7 +96,7 @@
 
                                         <div class="col-md-4 mb-3">
                                             <div class="card">
-                                                <img src="./img/sala-inovacao.jpg" alt="Sala Inovação">
+                                                <img src="./img/conexao.jpg" alt="Sala Inovação">
                                                 <h3>Sala Conexão</h3>
                                                 <p>Ideal para reuniões rápidas e trocas de ideias em equipe.</p>
                                             </div>
@@ -101,7 +104,7 @@
 
                                         <div class="col-md-4 mb-3">
                                             <div class="card">
-                                                <img src="./img/hub-criativo.jpg" alt="Hub Criativo">
+                                                <img src="./img/vanguarda.jpg" alt="Hub Criativo">
                                                 <h3>Sala Vanguarda</h3>
                                                 <p>Ideal para liderar reuniões estratégicas e traçar novos caminhos.</p>
                                             </div>
@@ -143,7 +146,7 @@
         
                                         <div class="col-md-4 mb-3">
                                             <div class="card">
-                                                <img src="./img/atelier-ideias.jpg" alt="Ateliê das Ideias">
+                                                <img src="./img/horizonte.jpg" alt="Ateliê das Ideias">
                                                 <h3>Sala Horizonte</h3>
                                                 <p>Proporciona um ambiente calmo e produtivo para planejamento estratégico.</p>
                                             </div>
@@ -151,7 +154,7 @@
 
                                         <div class="col-md-4 mb-3">
                                             <div class="card">
-                                                <img src="./img/sala-inovacao.jpg" alt="Sala Inovação">
+                                                <img src="./img/fluxo.jpg" alt="Sala Inovação">
                                                 <h3>Espaço Fluxo</h3>
                                                 <p>Ambiente dinâmico e versátil, perfeito para o trabalho em movimento.</p>
                                             </div>
@@ -159,7 +162,7 @@
 
                                         <div class="col-md-4 mb-3">
                                             <div class="card">
-                                                <img src="./img/hub-criativo.jpg" alt="Hub Criativo">
+                                                <img src="./img/pexels-zvolskiy-3581753.jpg" alt="Hub Criativo">
                                                 <h3>Loft Colaborativo</h3>
                                                 <p>Espaço versátil para encontros de equipe e sessões criativas.</p>
                                         </div>
@@ -173,11 +176,12 @@
                 </div>
             </div>
         </section>
-        <section>
-            <!-- Auditório -->
-            <div class="faq-item">
-                <h3>Auditório</h3>
-                <p>Nosso auditório acomoda até 100 pessoas, com equipamentos audiovisuais modernos e Wi-Fi de alta velocidade.</p>
+<!-- Auditório -->
+        <section id="auditorio">
+            
+            <div class="audit">
+                <h2>Auditório</h2>
+                <p>Nosso auditório é o espaço perfeito para eventos de maior escala, oferecendo uma experiência envolvente e de alta qualidade. Com capacidade para acomodar confortavelmente sua audiência, ele é equipado com tecnologia de ponta para garantir que cada apresentação seja memorável. Seja para palestras, seminários, workshops ou conferências.</p>
     
                 <div class="container">
 
@@ -194,34 +198,34 @@
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
                                 <div class="view">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" alt="First slide">
+                                    <img class="d-block w-100" src="./img/auditorio1.jpg" alt="First slide">
                                     <div class="mask rgba-black-light"></div>
                                 </div>
                                 <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Light mask</h3>
-                                    <p>First text</p>
+                                    <h3 class="h3-responsive">Funcional</h3>
+                                    
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <!--Mask color-->
                                 <div class="view">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" alt="Second slide">
+                                    <img class="d-block w-100" src="./img/auditorio2.jpg" alt="Second slide">
                                     <div class="mask rgba-black-strong"></div>
                                 </div>
                                 <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Strong mask</h3>
-                                    <p>Secondary text</p>
+                                    <h3 class="h3-responsive">Ambiente inspirador</h3>
+                                   
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <!--Mask color-->
                                 <div class="view">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" alt="Third slide">
+                                    <img class="d-block w-100" src="./img/auditorio3.jpg" alt="Third slide">
                                     <div class="mask rgba-black-slight"></div>
                                 </div>
                                 <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Slight mask</h3>
-                                    <p>Third text</p>
+                                    <h3 class="h3-responsive">Ideal para conectar ideias e pessoas</h3>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -243,51 +247,183 @@
             </div>
         </section>
         <!-- Seção FAQ -->
-    <section id="faq" class="section faq">
-        <div class="faq-container">
-            <!-- Perguntas Frequentes -->
-            <div class="faq-item">
-                <h3>Perguntas Frequentes</h3>
-                <p><strong>Como posso fazer uma reserva de sala?</strong><br>
-                Faça login, acesse a seção "Reservar" e selecione a sala e o horário desejado.</p>
-        
-                <p><strong>Posso editar ou cancelar uma reserva?</strong><br>
-                Sim, você pode editar ou cancelar uma reserva acessando "Minhas Reservas".</p>
-        
-                <p><strong>Quais tipos de espaços estão disponíveis para reserva?</strong><br>
-                Oferecemos salas de reunião de vários tamanhos e um auditório.</p>
-            </div>
-        
-            
-            
-        
-            <!-- Contato -->
-            <div class="faq-item">
-                <h3>Ficou com dúvidas?</h3>
-                <p>Entre em contato conosco:</p>
-                <div class="contact-icons">
-                    <a href="#"><img src="whatsapp-icon.png" alt="WhatsApp"></a>
-                    <a href="#"><img src="gmail-icon.png" alt="Gmail"></a>
-                    <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+       <section id="faq">
+        <h3>Perguntas Frequentes</h3>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  O que é necessário para reservar uma sala?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Para reservar uma sala, é necessário se cadastrar no sistema, fazer login e selecionar a sala desejada, informando a data e horário.
                 </div>
-                <h3>Nosso horario de funcionamento:</h3>
-                <p>Das 8h às 20h de Segunda a Sabado.</p>
+              </div>
             </div>
-        
-            <!-- Localização -->
-            <div class="faq-item">
-                <h3>Nossa Localização</h3>
-                <p>Av. Brig. Faria Lima, 1783 - Pinheiros</p>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.9718398212877!2d-46.69341938447315!3d-23.566046767862012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce572bdb64e5af%3A0xa1f9d9cf024ec14e!2sAv.%20Brigadeiro%20Faria%20Lima%2C%201783%20-%20Pinheiros%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001401-001!5e0!3m2!1spt-BR!2sbr!4v1633080533201!5m2!1spt-BR!2sbr"
-                    width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Posso cancelar uma reserva?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Sim, você pode cancelar uma reserva até 24 horas antes do horário agendado diretamente no sistema.
+                </div>
+              </div>
             </div>
-        </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Quais equipamentos estão disponíveis nas salas?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  As salas contam com projetores, quadros brancos, Wi-Fi de alta velocidade e mesas ajustáveis. Verifique as especificações da sala ao fazer sua reserva.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  Posso reservar salas para eventos recorrentes?
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Sim, é possível agendar eventos recorrentes. Na seção "Reserve", você pode selecionar a opção de repetição e configurar as datas e horários desejados.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                  Como posso verificar a disponibilidade de uma sala?
+                </button>
+              </h2>
+              <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Você pode verificar a disponibilidade na seção "Reserve". Use os filtros de data, horário e capacidade para encontrar uma sala disponível.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                  O que acontece se eu não comparecer à minha reserva?
+                </button>
+              </h2>
+              <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Em caso de não comparecimento sem aviso prévio, será aplicada uma taxa de no-show, e a reserva será cancelada automaticamente após 30 minutos.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                  As salas possuem acessibilidade para pessoas com deficiência?
+                </button>
+              </h2>
+              <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Sim, todas as salas possuem acessibilidade, incluindo rampas, elevadores e espaços adaptados para cadeirantes.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                  Qual é o horário de funcionamento das salas?
+                </button>
+              </h2>
+              <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  As salas estão disponíveis das 8h às 22h, de segunda a sábado. Aos domingos, o funcionamento é das 9h às 18h.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                  É permitido levar comida ou bebida para as salas?
+                </button>
+              </h2>
+              <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Sim, é permitido, desde que sejam respeitadas as regras de limpeza e descarte de resíduos.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                  Como posso entrar em contato para suporte?
+                </button>
+              </h2>
+              <div id="flush-collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Você pode entrar em contato pelo e-mail suporte@reservadesalas.com ou pelo telefone (11) 1234-5678.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+                  As salas possuem Wi-Fi disponível?
+                </button>
+              </h2>
+              <div id="flush-collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Sim, todas as salas possuem Wi-Fi de alta velocidade incluído na reserva.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
+                  Quais são as formas de pagamento aceitas?
+                </button>
+              </h2>
+              <div id="flush-collapseTwelve" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Aceitamos pagamentos via cartão de crédito, débito, PIX e boleto bancário.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThirteen" aria-expanded="false" aria-controls="flush-collapseThirteen">
+                  É possível alterar o horário da reserva após a confirmação?
+                </button>
+              </h2>
+              <div id="flush-collapseThirteen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Sim, você pode alterar o horário, desde que a nova data e horário estejam disponíveis no sistema.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFourteen" aria-expanded="false" aria-controls="flush-collapseFourteen">
+                  Posso levar convidados para reuniões nas salas?
+                </button>
+              </h2>
+              <div id="flush-collapseFourteen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Sim, você pode levar convidados. Informe o número de pessoas ao fazer a reserva para garantir que a sala
+          
+        </section>
         
+       
         
     </section>
     <!-- Seção de Cadastro -->
     <section id="reserve" class="section cadastro">
+        <div>
         <h2>Faça sua Reserva Agora</h2>
         <p>Preencha o formulário abaixo para garantir sua sala ou auditório no Espaço X.</p>
         <form class="form-cadastro">
@@ -317,19 +453,112 @@
 
             <button type="submit">Reservar</button>
         </form>
+       
+    </div>
+        <div class="faq-item">
+            <h3>Ficou com dúvidas?</h3>
+            <p>Entre em contato conosco:</p>
+            <div class="contact-icons">
+                <a href="https://www.facebook.com/login/?locale=pt_BR"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                  </svg></i></a>
+                <a href="https://web.whatsapp.com/"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                    <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                  </svg></a>
+                <a href="https://www.instagram.com/"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                  </svg></a>
+                <a href="https://gmail.com/"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                  </svg></a>
+            </div>
+            <h3>Nosso horario de funcionamento:</h3>
+            <p>Das 8h às 20h de Segunda a Sabado.</p>
+            <h3>Nossa Localização</h3>
+            <p>Av. Brig. Faria Lima, 1783 - Pinheiros</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.9718398212877!2d-46.69341938447315!3d-23.566046767862012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce572bdb64e5af%3A0xa1f9d9cf024ec14e!2sAv.%20Brigadeiro%20Faria%20Lima%2C%201783%20-%20Pinheiros%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001401-001!5e0!3m2!1spt-BR!2sbr!4v1633080533201!5m2!1spt-BR!2sbr"
+                width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    
+        
+    </div>
     </section>
     </main>
 
-    <footer class="footer">
-        <p>© 2024 Espaço X - Todos os direitos reservados.</p>
-        <div class="social-icons">
-            <a href="#"><img src="./img/facebook-icon.png" alt="Facebook"></a>
-            <a href="#"><img src="./img/instagram-icon.png" alt="Instagram"></a>
-            <a href="#"><img src="./img/linkedin-icon.png" alt="LinkedIn"></a>
+    <!-- Footer -->
+<footer class="footer bg-dark text-white pt-5 pb-3">
+    <div class="container">
+        <!-- First Row: Company Info & Quick Links -->
+        <div class="row">
+            <div class="col-md-3">
+                <h5 class="footer-heading">Sobre a Empresa</h5>
+                <p>A empresa oferece soluções inovadoras para seu negócio, focando em qualidade e eficiência. Conheça mais sobre nossos serviços e como podemos ajudar.</p>
+            </div>
+            <div class="col-md-3">
+                <h5 class="footer-heading">Links Rápidos</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#salas">Salas</a></li>
+                    <li><a href="#auditorio">Auditório</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#reserve">Reserve</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5 class="footer-heading">Redes Sociais</h5>
+                <ul class="list-unstyled d-flex justify-content-center gap-3">
+                    <li><a href="https://www.facebook.com/login/?locale=pt_BR"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                      </svg></i></a></li>
+                    <li><a href="https://web.whatsapp.com/"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                        <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                      </svg></a></li>
+                    <li><a href="https://www.instagram.com/"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                      </svg></a></li>
+                    <li><a href="https://gmail.com/"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                      </svg></a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5 class="footer-heading">Entre em Contato</h5>
+                <ul class="list-unstyled">
+                    <li><a href="mailto:contato@empresa.com" class="text-white">contato@empresa.com</a></li>
+                    <li><a href="tel:+5511999999999" class="text-white">+55 11 99999-9999</a></li>
+                    <li><p class="text-white">Endereço: Rua Exemplo, 123, Cidade, Estado</p></li>
+                </ul>
+            </div>
         </div>
-    </footer>
+
+        
+        <div class="row mt-4">
+            <div class="col-12 text-center">
+                <h5 class="footer-heading">Assine nossa Newsletter</h5>
+                <p class="text-white">Receba atualizações e ofertas especiais diretamente no seu e-mail.</p>
+                <form action="#home" method="post" class="form-inline justify-content-center">
+                    <input type="email"  placeholder="Digite seu e-mail" required>
+                    <button type="submit" class="btn btn-light mb-2" href="#home">Assinar</button>
+                </form>
+            </div>
+        </div>
+
+        
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+                <p class="text-white mb-0">&copy; 2024 Nome da Empresa. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
     <script type='text/javascript'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 </html>
