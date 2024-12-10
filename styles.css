@@ -1,4 +1,4 @@
-/* Reset Básico */
+
 * {
     margin: 0;
     padding: 0;
@@ -22,7 +22,7 @@ body {
     background-color: #020202;
     padding: 10px 20px;
     color: white;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     z-index: 1000;
 }
@@ -127,7 +127,7 @@ header, .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position: absolute; 
     top: 0;
     left: 0;
     width: 100%;
@@ -389,27 +389,37 @@ iframe {
 }
 /* Media Queries */
 @media (max-width: 647px) {
+    .menu {
+        position: static; /* Remove posição fixa */
+        width: auto;
+        padding: 10px; /* Ajuste para evitar que fique enorme */
+    }
     .valores-container, .cards {
-        
         display: flex;
-    flex-direction: column;
-    gap: 20px;
+        flex-direction: column;
+        gap: 20px;
     }
 
-    .home{
+    .home {
         margin-top: 100px;
     }
 
     .menu ul {
         gap: 20px;
+        flex-direction: column;
+        align-items: center;
     }
-    #reserve{
+
+   
+
+    #reserve {
         display: block;
     }
 }
+
 @media (max-width: 547px) {
     ul {
-        flex-direction: column; 
+        
         align-items: center; 
     }
 
@@ -421,12 +431,18 @@ iframe {
         font-size: 18px; 
     }
 
-  
     svg {
         width: 30px;
         height: 30px;
     }
-    .home{
+
+    /* .home {
         margin-top: 300px;
+    } */
+
+    .menu {
+        position: static;
+        padding: 8px; /* Mais ajustes para garantir um layout compacto */
+        font-size: 14px; /* Reduzir o tamanho da fonte no menu */
     }
 }
