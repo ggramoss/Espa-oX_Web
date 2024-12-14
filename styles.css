@@ -62,7 +62,13 @@ section {
     
 }
 
-
+#auditorio p {
+    text-align: center;
+    width: 75%;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 13%;
+}
 
 .card img {
     
@@ -438,6 +444,9 @@ iframe {
 
     .footer-heading {
         font-size: 18px; 
+    }
+    .home {
+        margin-top: 300px;
     }
 
     svg {
