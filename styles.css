@@ -406,7 +406,7 @@ iframe {
         margin-top: 50px;
     }
 }
-@media (max-width: 647px) {
+@media (max-width: 670px) {
     .menu {
         position: static; /* Remove posição fixa */
         width: auto;
