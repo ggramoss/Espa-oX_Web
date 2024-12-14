@@ -394,13 +394,16 @@ iframe {
     background-color: #0056b3;
 }
 /* Media Queries */
-@media (max-width: 1100px){
+@media (max-width: 1200px){
     .cards, .valores-container {
 
         grid-template-columns: repeat(2, 1fr);
     }
     .cards {
         width: 45%;
+    }
+    .home {
+        margin-top: 50px;
     }
 }
 @media (max-width: 647px) {
